@@ -22,7 +22,7 @@ It demonstrates fundamental digital logic concepts, including clock management v
 
 ## Color Bar Logic
 
-The screen is divided into 8 vertical bars. 
+The screen is divided into 8 vertical bars.
 The VGA_pattern_generator module uses the H_Count_Value and V_Count_Value to determine the active display area and toggle the 4-bit Red, Green, and Blue outputs.
 
 **Display Sequence:**
@@ -31,10 +31,10 @@ The VGA_pattern_generator module uses the H_Count_Value and V_Count_Value to det
 ## RTL Structure
 
 VGA_top.sv (Top Level)
-├── PLL.sv (IP Core)
-├── horizontal_counter.sv
-├── vertical_counter.sv
-└── VGA_pattern_generator.sv
+ PLL.sv (IP Core)
+ horizontal_counter.sv
+ vertical_counter.sv
+ VGA_pattern_generator.sv
 
 ## Requirements for implementation
 
